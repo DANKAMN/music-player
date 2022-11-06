@@ -77,7 +77,7 @@ const TopPlay = () => {
             {topPlays?.map((song, i) => (
               <SwiperSlide
                 key={song?.key}
-                style={{ width: '250px', height: 'auto' }}
+                style={{ width: '25%', height: 'auto' }}
                 className="shadow-lg rounded-full animate-slideright"
               >
                 <Link to={`/artists/${song?.artists[0].adamid}`}>
